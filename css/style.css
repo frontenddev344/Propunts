@@ -1006,3 +1006,54 @@ section.easy-steps::before {
     border-left: 2px solid#83b828;
     border-right: unset;
 }
+
+
+#cookie-popup {
+    position: fixed;
+    z-index: 9999;
+    right: 30px;
+    bottom: 30px;
+    width: 330px;
+    padding: 20px 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  background: rgba(0,0,0,0.85);
+    color: #eee;
+  }
+  
+  #cookie-popup p:first-child {
+    margin: 0;
+    color: #eee;
+    font-weight: 900;
+    color: #83b828;
+  }
+  
+  #cookie-popup p:nth-child(2) {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+  }
+  
+  #cookie-popup .link {
+    color: #83b828;
+    text-decoration: none;
+  }
+  
+  #cookie-popup button {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    padding: 8px 0;
+    
+    color: #fff;
+    background-color: #83b828;
+    
+   
+  }
+  
+  #cookie-popup button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  

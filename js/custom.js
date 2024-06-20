@@ -51,3 +51,10 @@ document.getElementById('contactForm').addEventListener('submit', function (even
         document.getElementById('contactForm').submit();
     }
 });
+
+
+
+
+
+
+
