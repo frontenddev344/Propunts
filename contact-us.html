@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Us </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/fav.png" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header class="header">
+        <!-- main header -->
+        <div class="navigation page-header">
+            <div class="container">
+                <div class="navigation-inner">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="images/logo_header.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="sidenavs" id="mySidenavs">
+                            <span class="closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark"></i></span>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="getting-started.html">Getting Started</a></li>
+                                <li><a href="contact-us.html" class="active">Contact Us </a></li>
+                            </ul>
+                        </div>
+                        <div class="toggle-bar">
+                            <span class="toggle_menu" onclick="openNav()"><i class="fa fa-bars"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main header -->
+    </header>
+    <!-- Header section -->
+    <section class="inner-page contact">
+        <div class="container">
+            <div class="inner-text-bnr">
+                <h2>Contact Us </h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="queries">
+        <div class="container">
+            <div class="queries-inner">
+                <p>We appreciate your comments, questions, and inquiries. Whether you need help, advice, or
+                    just a place to connect, we are here to listen and provide the support you need. Please get in
+                    touch using the details provided, and let's chat . Your experience is our main priority, and we
+                    look forward to hearing from you.
+                </p>
+            </div>
+
+            <div class="contact-f">
+                <h3>Contact Us </h3>
+                <form id="contactForm" action="#">
+                    <div class="form-wrapper-p">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>
+                                    <label>First name *</label>
+                                    <input type="text" id="firstName" name="name">
+                                </p>
+                                <div id="nameError" class="error">Please enter your first name</div>
+                            </div>
+                            <div class="col-md-6">
+                                <p>
+                                    <label> Last name *</label>
+                                    <input type="text" id="lastName" name="last_name">
+                                </p>
+                                <div id="lastNameError" class="error">Please enter your last name</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-wrapper-p">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>
+                                    <label> Your email *</label>
+                                    <input type="email" id="email" name="email">
+                                </p>
+                                <div id="emailError" class="error">Please enter your email</div>
+                            </div>
+                            <div class="col-md-6">
+                                <p>
+                                    <label> Phone Number *</label>
+                                    <input type="text" id="phoneNumber" name="number">
+                                </p>
+                                <div id="phoneNumberError" class="error">Please enter your phone number</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-wrapper-p">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>
+                                    <label> Your message *</label>
+                                    <textarea id="message" name="message" cols="50"></textarea>
+                                </p>
+                                <div id="messageError" class="error">Please enter your message</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-wrapper-p">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="submit">
+                                    <input type="submit" id="submitBtn">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer-logo">
+            <a href="index.html">
+                <img src="images/logo_footer.png" alt="">
+            </a>
+        </div>
+        <div class="main-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="footer-widget">
+                            <h5>Opening Hours</h5>
+                            <ul class="list-unstyled open-hours">
+                                <li>Mon - Fri</li>
+                                <li> 07:00 - 23:00</li>
+                                <li>Saturday</li>
+                                <li>Closed</li>
+                                <li>Sunday</li>
+                                <li>Closed</li>
+                            </ul>
+                            <p><a href="mailto:info@propunts.com">info@propunts.com</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="footer-widget menu">
+                            <h5>Quick Link
+                            </h5>
+                            <ul>
+                                <li><a href="index.html" class="active">Home</a></li>
+                                <li><a href="getting-started.html">Getting Started</a></li>
+                                <li><a href="contact-us.html">Contact Us </a></li>
+                                <li><a href="privacy-policy.html">Privacy Policy </a></li>
+                                <li><a href="terms-and-conditions.html">Terms And Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="footer-widget social ">
+                            <h5>Social Media</h5>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <p class="copyright-text">All rights reserved by <a href="index.html">propunts.com</a></p>
+        </div>
+    </footer>
+
+    <script src="js/custom.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
+
+    </script>
+
+</body>
+
+</html>
