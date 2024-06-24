@@ -855,7 +855,7 @@ textarea#message {
 }
 
 .contact-f h3 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     padding: 50px 0;
 }
@@ -1060,4 +1060,8 @@ section.easy-steps::before {
     background: #00000063;
     padding: 20px;
     border-radius: 5px;
+}
+p.main_head_p {
+    font-size: 26px;
+    font-weight: 600;
 }
