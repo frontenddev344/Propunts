@@ -725,19 +725,19 @@ section.inner-page::after {
 }
 
 section.inner-page.policy {
-    background: url(../images/privacy.jpg)no-repeat;
+    background: url(../images/privacy_bg.webp)no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 section.inner-page.terms {
-    background: url(../images/tream.jpg)no-repeat;
+    background: url(../images/terms_bg.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 section.inner-page.contact {
-    background: url(../images/conatct-us.jpg)no-repeat;
+    background: url(../images/contact_us_bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -838,8 +838,7 @@ section.queries {
 .form-wrapper-p p input {
     width: 100%;
     padding: 10px 0;
-    border-bottom: 1px solid#83b828 !important;
-    border: none;
+    border: 1px solid #83b828;
     outline: none;
 }
 
@@ -850,7 +849,7 @@ section.queries {
 textarea#message {
     width: 100%;
     border: none;
-    border-bottom: 1px solid#83b828;
+    border: 1px solid #83b828;
     outline: none;
 }
 
@@ -1064,4 +1063,9 @@ section.easy-steps::before {
 p.main_head_p {
     font-size: 26px;
     font-weight: 600;
+}
+#contactForm {
+    border-radius: 10px;
+    padding: 45px 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
