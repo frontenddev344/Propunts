@@ -87,6 +87,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .bnr-img {
+        position: inherit;
+    }
     .player-wrapper .row .col-md-4 {
         margin-bottom: 30px;
     }
